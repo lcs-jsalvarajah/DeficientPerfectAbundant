@@ -34,11 +34,21 @@ while 1==1 {
 
 
 //Process
-var storage = 0
+var storage = 0 // to store the divisors
 for i in 1...validInput - 1  {
     if validInput % i == 0 {
         storage += i
     }
 }
 
-// compare stoage to validInput and the output is the answer!
+//Comparing the stored divisors to the validInput
+if storage > validInput {
+    print("Is Defficient")
+} else if storage < validInput {
+    print("Is abundant")
+} else if storage == validInput {
+    print("Is perfect number")
+} else {
+    print("I don't know")
+}
+
