@@ -12,8 +12,7 @@ import Foundation
 var rawInput = readLine()
 
 // Print out the input provided
-print("You said:")
-print(rawInput)
+  print("Please Insert Inetger")
 
 var validInput = 0
 while 1==1 {
