@@ -42,9 +42,9 @@ for i in 1...validInput - 1  {
 }
 
 //Comparing the stored divisors to the validInput
-if storage > validInput {
+if storage < validInput {
     print("Is Defficient")
-} else if storage < validInput {
+} else if storage > validInput {
     print("Is abundant")
 } else if storage == validInput {
     print("Is perfect number")
